@@ -2,10 +2,9 @@
  Realizar una copia de una pagina web exacta seleccionada por el alumno (Guatemala Digital)
 
 # Colaboradores
-Yulian Gaitan
+Eduardo Ajcajón
+eaajcajon@scl.edu.gt
 
-ysgaitann@scl.edu.gt
-
-Nyulian122
+EduardoAjcajon
 
 # Tecnologias usadas en este proyecto
