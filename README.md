@@ -1,5 +1,5 @@
 # Proposito del protecto
- Realizar una copia de una pagina web exacta seleccionada por el alumno (Guatemala Digital)
+ Realizar una copia de una pagina web exacta seleccionada por el alumno (Lai Lai)
 
 # Colaboradores
 Eduardo Ajcajón
