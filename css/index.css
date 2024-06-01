@@ -519,6 +519,21 @@ margin: 19.6rem 50.7rem 0 50.7rem;
     height: 2.6rem;   
 }
 
-.redes{
-    display: none;
+.redes {
+    position: fixed;
+    bottom: 20px; /* Puedes ajustar la distancia desde la parte inferior de la pantalla */
+    right: 20px;  /* Puedes ajustar la distancia desde el lado derecho de la pantalla */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+.mesenger img{
+    width: 5rem;
+    height: 5rem;
+}
+.wats img{
+    width: 5rem;
+    height: 5rem;
+}
+.cel img{
+    width: 5rem;
+    height: 5rem;
 }
