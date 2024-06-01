@@ -1,0 +1,524 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
+}
+.header-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio */
+    filter: brightness(30%) blur(0px); /* Aplica el color negro superpuesto y difuminado */
+}
+.header-content {
+    height: 100vh;
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima de la imagen de fondo */
+    display: grid;
+    grid-template-rows: 9.4rem 1fr;
+}
+.aribaHeader{
+    height: 9.4rem;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor1{
+    display: flex;
+    height: 7.4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor2{
+    padding: 1.6rem;
+    margin-left: 10.9rem;
+    width: 120.5rem;
+    height: 7.4rem;    
+    display: flex;
+    align-items: center;
+}
+.imgLogoBlanco{
+    width: 53rem;
+    height: 4.2rem;
+    display: flex;
+    align-items: center;
+}
+.imgLogoBlanco img{
+    width: 15rem;
+    height: 3.2rem;
+}
+.opciones{
+    height: 5.8rem;
+    width: 64.3rem;
+}
+.contenedor3{
+    width: 54.4rem;
+    height: 5.8rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 9.8rem;
+    padding: 0 1rem 0 1rem;
+}
+.item{
+    width: 100%;
+    margin-bottom: 1.6rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-top: 2.45rem;
+}
+.inicio{
+    font-size: 13px;
+    width: 6.3rem;
+    padding: 0 1.5rem 0 1.5rem;
+    margin-right: 2rem;
+}
+.menus{
+    font-size: 13px;
+    margin-right: 2rem;
+    padding: 0 1.5rem 0 1.5rem;
+    text-align: center;
+}
+.combosHeader{
+    font-size: 13px;
+    width: 7.9rem;
+    padding: 0 1.5rem 0 1.5rem;
+    margin-right: 2rem;
+}
+.ubi{
+    font-size: 13px;
+    width: 10.3rem;
+    padding: 0 1.5rem 0 1.5rem;
+    margin-right: 2rem;
+}
+.nosotros{
+    font-size: 13px;
+    width: 8.7rem;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.centro{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 32.3rem 1fr;
+    padding-bottom: 2rem;
+    align-self: center;
+}
+.contenedor5{
+    padding: 0 1.5rem 0 1.5rem;
+    height: 25.8rem;
+    margin-top: 6.2rem;
+}
+.imgCentro{
+    width: 100%;
+    height: 25.8rem;
+}
+.imgCentro img{
+    margin-top: 19.6rem;
+margin: 19.6rem 50.7rem 0 50.7rem;
+}
+.textCentro{
+    height: 8.5rem;
+    color: rgb(255, 255, 255);
+}
+.cont6{
+    width: 100%;
+    height: 8.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2.6rem 1.5rem;
+}
+.textCentro{
+    height: 3.2rem;
+}
+
+.productos{
+    padding: 0 1.5rem;
+    width: 100vw;
+}
+.menu{
+    margin-top: 6rem;
+    height: 24.7rem;
+}
+.tituloMenu{
+    font-size: 2rem;
+    padding: 0 1.5rem 1.6rem 12.7rem;
+    font-weight: bold;
+}
+.tituloMenu p{
+    height: 3rem;
+}
+.cont10{
+    display: flex;
+    flex-direction: row;
+}
+.menu1{
+    width: 43.7rem;
+    padding: 1rem 0 0 13.4rem;
+    height: 20.1rem;
+}
+.menu2{
+    padding-top: 1rem;
+    width: 30.2rem;
+    height: 20.1rem;
+
+}
+.contenedorMenus{
+    width: 25.7rem;
+    height: 19.1rem;
+    position: absolute;
+}
+.contenedorMenus2{
+    width: 25.7rem;
+    height: 19.1rem;
+    position: absolute;
+}
+.menu1Img{
+    margin: auto;
+    width: 24.4rem;
+    height: 15.9rem;
+    border-radius: 16px;
+    object-fit: cover;
+    position: absolute;
+}
+.menusIco{
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.txtMenus{
+    margin: 7rem 2rem 0 4rem ;
+    position: relative;
+    color: white;
+}
+.txtMenus2{
+    margin: 7rem 2rem 0 3rem ;
+    position: relative;
+    color: white;
+}
+.tituloPaMenu{
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.tituloMenus{
+    font-size: 1rem;
+}
+.combos{
+    margin-top: 6rem;
+    height: 49.1rem;
+    width: 100%;
+}
+.cont17{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tituloCombos{
+    margin: 0 0 1.6rem 16rem ;
+    font-size: 3.1rem;
+    font-weight: bold;
+    grid-column: 1/2;
+}
+.btnCombo{
+    grid-column: 2/2;
+    width: 12.2rem;
+    height: 2.6rem;
+    border: 1px solid red;
+    color: red;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.6rem;
+    margin-left: 37rem;
+}
+.cont11{
+    margin: 4rem 0 0 11.2rem;
+    padding: 0 13.6rem;
+    width: 112rem;
+    height: 39.4rem;
+    border-radius: 9px;
+}
+.contenidoCombos{
+    width: 84.8rem;
+    height: 36.2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.imgCombo  img{
+    width: 23.2rem;
+    height: 13.1rem;
+    margin: 2.5rem;
+    border-radius: 6px;
+}
+.recomendaciones{
+    height: 38rem;
+    position: relative;
+}
+.figuraDerecha{
+    position: absolute;
+}
+.figuraDerecha img{
+    height: 16.3rem;
+}
+.figuraIzquierda{
+    position: absolute;
+    margin: 21.25rem 0 0 110.1rem;
+}
+.figuraIzquierda img{
+    height: 16.3rem;
+}
+.tituloReco{
+    height: 10.1rem;
+    padding: 3.2rem 1.5rem;
+}
+.tituloReco p{
+    width: 131.5rem;
+    height: 3.6rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+.cont12{
+    display: flex;
+}
+.reocomendacion1{
+    width: 33.6rem;
+    height: 279px;
+    border-radius: 15%;
+    margin-left: 22.4rem;
+    padding: 5.5rem 0 0 2rem;
+    line-height: 1.5;
+}
+.reocomendacion2{
+    width: 33.6rem;
+    height: 27.9rem;
+    border-radius: 15%;
+    margin-left: 22.4rem;
+    padding: 0 0 0 2rem;
+    position: relative;
+    line-height: 1.5;
+}
+.imgReco{
+    position: absolute;
+    margin-top: -24.5rem;
+    margin-left: 22rem;
+}
+.imgReco img{
+    width: 13.5rem;
+    height: 9rem;
+    border-radius: 40px;
+}
+.cont13{
+    width: 30.6rem;
+    height: 18rem;
+    padding: 0 1.5rem;
+}
+.cont15{
+    padding: 0 1.5rem;
+}
+.namePlato{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.infoPlato{
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.cont18{
+    height: 4.1rem;
+    padding: 0 0 0 20rem;
+}
+.btnReco{
+    width: 7.5rem;
+    height: 2.5rem;
+    border: 1px solid red;
+    border-radius: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.footer{
+    display: grid;
+    grid-template-rows: 39.2rem 30.7rem;
+    width: 100%;
+    margin-top: 10rem;
+}
+.aribaFooter {
+    background-image: url('https://github.com/EduardoAjcajon/img_lailai/blob/main/footer/TACP_MENU-normal.cdbb9c45.png?raw=true');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el área */
+    background-position: center; /* Centra la imagen en el div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: grid;
+    grid-template-rows: 1fr 4rem;
+    max-width: 1345px;
+}
+.cont7{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 8rem repeat(2, 1fr);
+    color: rgb(255, 255, 255);
+    gap: 1rem;
+}
+.abajoFooter{
+    background-color: rgb(34,34,34);
+}
+.tituloFooter{
+    grid-column: 1/3;
+    font-size: 2.9rem;
+    font-weight: 800;
+    margin: 4rem 0 0 13.6rem;
+    width: 16.7rem;
+    height: 4.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tituloNombre{
+    font-size: 2.2rem;
+    margin: 0 0 0 13.6rem;
+}
+.textoTestu{
+    margin: 0 0 0 13.6rem;
+    font-size: 1.4rem;
+    width: 41.6rem;
+    line-height: 1.5;
+}
+.tituloNombre2{
+    font-size: 2.2rem;
+    margin: 0 0 0 6rem;
+}
+.textoTestu2{
+    margin: 0 0 0 6rem;
+    font-size: 1.4rem;
+    width: 41.6rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+.flechas{
+    display: flex;
+    align-items: center;
+}
+.flecha_izquierda{
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0 0 95rem;
+}
+.flecha_derecha{
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0 0 20rem;
+}
+.abajoFooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1345px;
+
+}
+.logoFooter img{
+    width: 16.7rem;
+    height: 3.4rem;
+    margin: 10.2rem 0 0 9.8rem;
+}
+.txtFoterAbajo{
+    padding: 0 1.5rem 0 1.5rem;
+    width: 67.2rem;
+    height: 10.2rem;
+}
+.txtFoterAbajo2{
+    width: 64.2rem;
+    height: 8.6rem;
+    margin-bottom: 1.6rem;
+    font-size: 12px;
+    color: rgb(133, 133, 133);    
+    padding: 3.2rem 8.3rem 0 8.3rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+.copy{
+    width: 67.2rem;
+    height: 2.8rem;
+    padding: 0 1.5rem;
+}
+.copy p{
+    width: 64.2rem;
+    height: 1.2rem;
+    padding: 0 8.3rem;
+    margin-bottom: 1.6rem;
+    font-size: 0.8rem;
+    color: rgb(133, 133, 133);
+}
+.copyRojo{
+    color: red;
+}
+.visitannosFooter{
+    width: 67.2rem;
+    height: 19.2rem;
+    padding: 15.4rem 1.5rem 1.6rem 1.5rem;
+}
+.visitannosFooter p{
+    padding: 0 8.3rem 0 25.7rem;
+    font-size: 15px;
+    color: rgb(237, 237, 237);
+    font-weight: bold;
+}
+.horario{
+    color: rgb(133, 133, 133);    
+    width: 67.2rem;
+    height: 2.8rem;
+    padding: 0 1.5rem 1.3rem 1.5rem;
+}
+.horario p{
+    font-size: 10px;
+    padding: 0 8.3rem 0 25.7rem;
+}
+.redesFooter{
+    width: 67.2rem;
+}
+.redesFooter2{
+    display: flex;
+    flex-direction: row;
+    height: 2.6rem;
+}
+.face{
+    padding: 0 1.5rem;
+    width: 5.6rem;
+    height: 2.6rem;
+    margin-left: 33.6rem;
+}
+.face img{
+    width: 2.6rem;
+    height: 2.5rem;
+}
+.insta{
+    padding: 0 1.5rem;
+    width: 5.6rem;
+    height: 2.6rem;
+}
+.insta img{
+    width: 2.6rem;
+    height: 2.5rem;
+}
+.tel{
+    padding: 0 1.5rem;
+    width: 11.2rem;
+    height: 2.6rem;
+}
+.tel img{
+    width: 8.2rem;
+    height: 2.6rem;   
+}
+
+.redes{
+    display: none;
+}
