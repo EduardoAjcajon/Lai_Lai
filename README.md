@@ -11,3 +11,6 @@ EduardoAjcajon
 
 # Tecnologias usadas en este proyecto
 - ChatGPT
+
+# **Pagina**
+https://eduardoajcajon.github.io/Lai_Lai/
