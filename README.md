@@ -11,4 +11,3 @@ EduardoAjcajon
 
 # Tecnologias usadas en este proyecto
 - ChatGPT
-- Copilot
